@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "target": "es6",   
+    "moduleResolution": "node",                     
+    "module": "commonjs", 
+    "importHelpers": true,
+    "inlineSourceMap": true,
+    "listFiles": false,
+    "traceResolution": false,
+    "pretty": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "removeComments": true,
+    "declaration": true,
+    "lib" : [ "es6" ],
+    "outDir": "build",
+    "rootDir": "src",
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "node_modules/*",
+        "src/types/*"
+      ]
+    }
+  },
+  "include": [
+      "src/**/*"
+  ],
+  "exclude": [
+      "node_modules",
+      ".vscode"
+  ]  
+}
